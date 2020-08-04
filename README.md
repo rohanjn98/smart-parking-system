@@ -25,7 +25,7 @@ The project provides an organised parking solution to automate the existing proc
 ## Software and Hardware Requirements
 1. [Android Studio](https://developer.android.com/studio)
 2. Internet Connectivity
-3. Microcontroller Board - Either [RPi](https://www.raspberrypi.org/) or [ESP8266](https://www.espressif.com/en/products/socs/esp8266/overview) or any other board with built-in wifi module. Connection ports must be specified properly in the script for microcontroller.
+3. Microcontroller Board - Either [RPi](https://www.raspberrypi.org/) or [ESP8266](https://www.espressif.com/en/products/socs/esp8266/overview) or any other board with built-in wifi module.
 4. Servo motor if using baricade (for small demo you can use sticks).
 5. Sensors (Any one type) - IR, Ultra Sonic, PIR or any other motion detecting sensor to detect car's presence. One can also use overhead camera for object (car) detection.  
 
