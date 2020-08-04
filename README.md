@@ -18,3 +18,4 @@ The project provides an organised parking solution to automate the existing proc
 11. Provision is also made for the user to rent out available space for parking that he/she owns.
 12. Sensors are required if we wish to provide slot numbers to users on their arrival or to check which slot is available. The use of sensors can also be avoided as we already use two time scanning process that helps us to evaluate total time the vehicle is parked and the bill can be generated based on the time difference between the two scans.
 13. The barricade opens only after successful scanning of the QR code and the code expires after two time scan and even if it isn't used within 2-3hrs. This is done to avoid blocking of slot.
+14. The user can also view his bookings in My Parking section in Navigation Drawer.
