@@ -2,6 +2,8 @@
 
 The project provides an organised parking solution to automate the existing process of parking in India.
 
+<img src="app-flow1.png" width=700 height=550 style="float:left">
+<img src="app-flow2.png" width=700 height=600 style="float:left">
 
 ## How it works
 
