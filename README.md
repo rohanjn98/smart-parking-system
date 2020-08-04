@@ -84,4 +84,4 @@ convenience factors.
 
 1. In-app payment solutions
 2. Database optimization
-3. Code refatoring
+3. Code refactoring
