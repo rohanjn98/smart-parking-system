@@ -22,6 +22,22 @@ The project provides an organised parking solution to automate the existing proc
 13. The barricade opens only after successful scanning of the QR code and the code expires after two time scan and even if it isn't used within 2-3hrs. This is done to avoid blocking of slot.
 14. The user can also view his bookings in My Parking section in Navigation Drawer.
 
+## Software and Hardware Requirements
+1. [Android Studio](https://developer.android.com/studio)
+2. Internet Connectivity
+3. Microcontroller Board - Either [RPi](https://www.raspberrypi.org/) or [ESP8266](https://www.espressif.com/en/products/socs/esp8266/overview) or any other board with built-in wifi module. Connection ports must be specified properly in the script for microcontroller.
+4. Servo motor if using baricade (for small demo you can use sticks).
+5. Sensors (Any one type) - IR, Ultra Sonic, PIR or any other motion detecting sensor to detect car's presence. One can also use overhead camera for object (car) detection.  
+
+## Getting Started and Learning Resources
+
+1. Download the code and import it in android studio. Set up your firebase database and configure the app to use firebase database. Run the app using emulator or using real mobile.
+2. Download/Write script for microcontroller for car detection. If sensors are being used, make sure to mention correct port nos. in script. Run the script using `python <script_name>.py` 
+3. [Installation and Setup of Operating System (Raspbian) - Raspberry Pi](https://www.youtube.com/watch?v=4z9trGhCbfk&list=PLQVvvaa0QuDesV8WWHLLXW_avmTzHmJLv&index=2)
+4. [Remote Access with SSH and Remote Desktop - Raspberry Pi](https://www.youtube.com/watch?v=IDqQIDL3LKg&list=PLQVvvaa0QuDesV8WWHLLXW_avmTzHmJLv&index=3)
+5. [GPIO Basics with LED light - Raspberry Pi](https://www.youtube.com/watch?v=WLo5Rgvj6qo&list=PLQVvvaa0QuDesV8WWHLLXW_avmTzHmJLv&index=6)
+6. [Raspberry Pi and Firebase integration](https://medium.com/@dvd.ciri/raspberry-pi-firebase-home-automation-d5a237f18fb5)
+7. [Android and Firebase integration](https://firebase.google.com/docs/android/setup)
 
 ## Advantages of this system
 
