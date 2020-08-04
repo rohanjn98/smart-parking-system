@@ -1,4 +1,4 @@
-# smart-parking-system
+# Smart Parking System
 
 The project provides an organised parking solution to automate the existing process of parking in India.
 
@@ -21,3 +21,51 @@ The project provides an organised parking solution to automate the existing proc
 12. Sensors are required if we wish to provide slot numbers to users on their arrival or to check which slot is available. The use of sensors can also be avoided as we already use two time scanning process that helps us to evaluate total time the vehicle is parked and the bill can be generated based on the time difference between the two scans.
 13. The barricade opens only after successful scanning of the QR code and the code expires after two time scan and even if it isn't used within 2-3hrs. This is done to avoid blocking of slot.
 14. The user can also view his bookings in My Parking section in Navigation Drawer.
+
+
+## Advantages of this system
+
+1. Optimized parking – Users find the best spot available, saving time, resources and effort. The
+parking lot fills up efficiently and space can be utilized properly by commercial and corporate
+entities.
+2. Reduced traffic – Traffic flow increases as fewer cars are required to drive around in search of an
+open parking space.
+3. Reduced pollution – Searching for parking burns around one million barrels of oil a day. An optimal
+parking solution will significantly decrease driving time, thus lowering the amount of daily vehicle
+emissions and ultimately reducing the global environmental footprint.
+4. Enhanced User Experience – A smart parking solution will integrate the entire user experience into
+a unified action. Driver’s payment, spot identification, location search and time notifications all
+seamlessly become part of the destination arrival process.
+5. New Revenue Streams – Many new revenue streams are possible with smart parking technology.
+For example, lot owners can enable tiered payment options dependent on parking space location.
+6. In addition, reward programs can be integrated into existing models to encourage repeat users.
+7. Integrated Payments – Returning users can replace daily, manual cash payments with account
+invoicing and application payments from their phone. This could also enable customer loyalty
+programs and valuable user feedback.
+8. Increased Safety – Parking lot employees and security guards contain real-time lot data that can
+help prevent parking violations and suspicious activity. In addition, decreased spot-searching
+traffic on the streets can reduce accidents caused by the distraction of searching for parking.
+9. Real-Time Data and Trend Insight – Over time, a smart parking solution can produce data that
+uncovers correlations and trends of users and lots. These trends can prove to be invaluable to lot
+owners as to how to make adjustments and improvements to drivers.
+10. Decreased Management Costs – More automation and less manual activity saves on labor cost and
+resource exhaustion.
+11. Increased Service and Brand Image – A seamless experience can really skyrocket a corporate or
+commercial entities brand image to the user. Whether the destination is a retail store, an airport
+or a corporate business office, visitors will surely be impressed with the innovative technology and
+convenience factors.
+
+
+## Additional Notes
+
+1. This project started as an academic project in Feb 2018 and with additional brainstorming we've reached till here.
+2. We used IR sensors to measure presence of car parked and servo motors for baricades. Object (Car in this case) detection can also be carried out using other resources like overhead camera, ultra sonic sensors, etc.
+3. This project is purely built on native android.
+4. We used Arduino Uno as microcontroller board for demo purpose. For more I/O ports, RPi can also be used.
+
+
+## In Progress
+
+1. In-app payment solutions
+2. Database optimization
+3. Code refatoring
