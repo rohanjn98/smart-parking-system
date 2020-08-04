@@ -1,6 +1,6 @@
 # Smart Parking System
 
-The project provides an organised parking solution to automate the existing process of parking in India.
+The project provides an organized parking solution to automate the existing process of parking in India.
 
 <img src="app-flow1.png" width=850 height=350 style="float:left">
 <img src="app-flow2.png" width=800 height=350 style="float:left">
