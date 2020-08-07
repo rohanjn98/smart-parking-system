@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/booking_confirmed"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="2dp"
+    android:layout_marginRight="@dimen/btn_margin"
+    android:layout_marginLeft="@dimen/btn_margin"
+    app:behavior_hideable="true"
+    android:elevation="8dp"
+    app:behavior_peekHeight="56dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="@dimen/btn_margin">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cancel"
+                android:elevation="16dp"
+                android:id="@+id/cancel"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:elevation="16dp"
+                android:text="@string/navigate"
+                android:id="@+id/navigate"/>
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv"
+            android:layout_gravity="center"
+            android:contentDescription="QRCODE" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/btn_margin"
+            android:text="Parking Address"
+            android:layout_marginStart="@dimen/btn_margin"
+            android:textColor="#444"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/btn_margin"
+            android:text="@string/address" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/proceedpayment"
+            android:layout_marginTop="30dp"
+            android:background="#000"
+            android:elevation="16dp"
+            android:foreground="?attr/selectableItemBackground"
+
+            android:text="@string/proceed_payment"
+            android:textColor="#fff" />
+
+</LinearLayout>

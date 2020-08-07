@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=1C:F8:7B:AA:F9:64:26:6A:43:77:83:79:0B:DB:27:11:21:1D:9E:08%3Bcom.smartparking.amit.parksmart
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    1C:F8:7B:AA:F9:64:26:6A:43:77:83:79:0B:DB:27:11:21:1D:9E:08
+
+    SHA-1 certificate fingerprint:
+    1C:F8:7B:AA:F9:64:26:6A:43:77:83:79:0B:DB:27:11:21:1D:9E:08
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDhKGw_KTJtA4Q0HcdKgk8gmSrcjhUp5uY</string>
+</resources>

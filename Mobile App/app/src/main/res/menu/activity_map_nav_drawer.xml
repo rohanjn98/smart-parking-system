@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_parkings"
+            android:icon="@drawable/baseline_person_pin_circle_black_48"
+            android:title="My Parkings" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/baseline_help_black_48"
+            android:title="Help" />
+        <item
+            android:id="@+id/payment"
+            android:icon="@drawable/rupee"
+            android:title="Payment" />
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/baseline_group_black_48"
+            android:title="About Us" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+    </group>
+
+    <item android:title="Grow with us">
+        <menu>
+            <item
+                android:id="@+id/rent_your_space"
+                android:icon="@drawable/baseline_business_center_black_48"
+                android:title="Rent Your Space" />
+        </menu>
+    </item>
+
+</menu>
